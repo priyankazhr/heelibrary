@@ -11,7 +11,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../css/bk_ptg.css'>
 </head>
 <body>
-    <h1>DATA KESELURUHAN BUKU</h1>
+    <h1>DATA BUKU</h1>
     <a href="data/tambah_buku.php" class="btn btn-info">Tambah Buku</a>
     <table>
     <thead>
