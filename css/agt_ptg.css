@@ -1,0 +1,35 @@
+html{
+    background-color: mistyrose;
+    color: rgb(57, 109, 207);
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+
+table {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+th{
+    background-color: rgb(99, 178, 142);
+    color: rgb(255, 255, 255);
+    border-color : 20px solid black;
+    padding: 5px 35px;
+    text-align: center;
+    border-style: initial ;
+    font-size: 20px;
+}
+td{
+    background-color: darkcyan;
+    color: rgb(26, 25, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+
+

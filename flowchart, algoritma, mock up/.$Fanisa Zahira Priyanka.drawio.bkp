@@ -1,0 +1,321 @@
+<mxfile host="Electron" modified="2024-03-04T09:33:37.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="hzXqPAECGi26seHQGeFC" version="21.2.8" type="device" pages="4">
+  <diagram name="Login" id="9QHbtEANsNPqw-uDq83x">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WpAA-iWR2P5E7XOItSaO-1" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Algoritma Login&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Mulai&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Deklarasi variabel&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tampilan Login&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Input data ke $username $password lalu submit&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Validasi Data&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Apakah data sesuai?&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Jika ya, header ke halaman dashboard sesuai $level&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;jika tidak, kembali input data ulang&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;selesai&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="150" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BPSxP-xe-Ci90CoS8E96-1" target="BPSxP-xe-Ci90CoS8E96-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="175" y="90" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BPSxP-xe-Ci90CoS8E96-2" target="BPSxP-xe-Ci90CoS8E96-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-2" value="$username =$_POST[&#39;username&#39;]&lt;br&gt;$password =$_POST[&#39;password&#39;]&lt;br&gt;$level =$_POST[&#39;level&#39;]" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="115" y="180" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BPSxP-xe-Ci90CoS8E96-4" target="BPSxP-xe-Ci90CoS8E96-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-4" value="Tampilan Login" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=10;" parent="1" vertex="1">
+          <mxGeometry x="150" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-8" value="Input data ke $username, $password" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=-10;" parent="1" vertex="1">
+          <mxGeometry x="130" y="380" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BPSxP-xe-Ci90CoS8E96-8" target="BPSxP-xe-Ci90CoS8E96-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BPSxP-xe-Ci90CoS8E96-12" target="BPSxP-xe-Ci90CoS8E96-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-12" value="Data sesuai?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="155" y="510" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-14" value="Header ke dashboard sesuai $level" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="145" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-17" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="175" y="750" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BPSxP-xe-Ci90CoS8E96-14" target="BPSxP-xe-Ci90CoS8E96-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="450" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BPSxP-xe-Ci90CoS8E96-12" target="BPSxP-xe-Ci90CoS8E96-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="450" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="560" />
+              <mxPoint x="430" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-20" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="630" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BPSxP-xe-Ci90CoS8E96-22" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="550" width="30" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YRSTwsTNy0b-Yzcdu-c4" name="Register">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uX0bt_8a5zJvNoPV_YES-1" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Algoritma Register&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Mulai&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tampilan Register&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Input data ke dalam field yang tersedia lalu submit&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Validasi Data&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Apakah data tersimpan?&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Jika ya, header ke halaman login&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;jika tidak, kembali input data ulang&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;selesai&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="30" width="380" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iQbvCLVRWhqH02qQj8fw-2" target="iQbvCLVRWhqH02qQj8fw-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="180" />
+              <mxPoint x="220" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-2" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="175" y="90" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iQbvCLVRWhqH02qQj8fw-6" target="iQbvCLVRWhqH02qQj8fw-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-6" value="Tampilan Register" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=10;" parent="1" vertex="1">
+          <mxGeometry x="150" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-8" value="Input data ke field yang&lt;br&gt;&amp;nbsp;tersedia" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=-10;" parent="1" vertex="1">
+          <mxGeometry x="130" y="270" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="iQbvCLVRWhqH02qQj8fw-8" target="iQbvCLVRWhqH02qQj8fw-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iQbvCLVRWhqH02qQj8fw-12" target="iQbvCLVRWhqH02qQj8fw-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-12" value="data tersimpan?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="155" y="430" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-13" value="Header ke Login" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="145" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-14" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="175" y="670" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="iQbvCLVRWhqH02qQj8fw-13" target="iQbvCLVRWhqH02qQj8fw-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="450" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-17" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="540" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iQbvCLVRWhqH02qQj8fw-12" target="iQbvCLVRWhqH02qQj8fw-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="560" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="480" />
+              <mxPoint x="420" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQbvCLVRWhqH02qQj8fw-18" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="470" width="30" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V9iOwpf45xzkrSSpQALM" name="Peminjaman">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cwi-gM2pW10OLSor1XN0-1" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Algoritma Peminjaman&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Mulai&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tampilan Daftar Buku halaman Peminjam&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Klik tombol pinjam di salah satu buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tampilan Form Peminjaman Buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Input data kedalam field yang tersedia lalu submit&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Apakah data tersimpan?&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Jika ya, header ke halaman daftar buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;jika tidak, keluar pesan error dan kembali input data ulang&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;selesai&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="170" width="350" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Me1pgrDid3h75fQx6pm1-2" target="Me1pgrDid3h75fQx6pm1-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="250" />
+              <mxPoint x="230" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-2" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="185" y="160" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-4" value="Tampilan Daftar Buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=10;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Rf-EH9b8fkfREICH6W9a-1" target="Me1pgrDid3h75fQx6pm1-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Me1pgrDid3h75fQx6pm1-10" target="Me1pgrDid3h75fQx6pm1-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-10" value="data tersimpan?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="165" y="590" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-11" value="Header ke Daftar Buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="155" y="730" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-12" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="185" y="820" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Me1pgrDid3h75fQx6pm1-11" target="Me1pgrDid3h75fQx6pm1-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-14" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="700" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-16" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="630" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-17" value="Klik Tombol Pinjam" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=-5;" parent="1" vertex="1">
+          <mxGeometry x="155" y="330" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Me1pgrDid3h75fQx6pm1-4" target="Me1pgrDid3h75fQx6pm1-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Me1pgrDid3h75fQx6pm1-17" target="Rf-EH9b8fkfREICH6W9a-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l78ceMwGd_trN1X735fa-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Me1pgrDid3h75fQx6pm1-22" target="Me1pgrDid3h75fQx6pm1-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Me1pgrDid3h75fQx6pm1-22" value="Input data ke field yang&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;tersedia" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="510" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l78ceMwGd_trN1X735fa-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Me1pgrDid3h75fQx6pm1-10" target="Rf-EH9b8fkfREICH6W9a-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="580" as="sourcePoint" />
+            <mxPoint x="297.5" y="457.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="640" />
+              <mxPoint x="420" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rf-EH9b8fkfREICH6W9a-1" value="Tampilan Form Pinjam" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="l_q2xRhB2V5_Tp5mcIkU" name="Tambah Buku">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dETEfBZQfNQj_PP2ZEsE-1" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Algoritma Tambah Buku&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Mulai&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tampilan Data Buku halaman Petugas&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Klik tombol tambah buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tampilan Form Tambah Buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Input data buku ke dalam seluruh field&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Klik tombol Tambah Buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Apakah data sudah tersimpan?&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Jika ya, header ke halaman data buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;jika tidak, keluar pesan error dan kembali ke form tambah buku&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;selesai&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="360" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-2" target="kUst8tB0392i_xlxhvFY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="250" />
+              <mxPoint x="230" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-2" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="185" y="160" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-3" value="Tampilan Data Buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbOoIcbZR2tlrwJzo8jR-1" target="kUst8tB0392i_xlxhvFY-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-7" target="kUst8tB0392i_xlxhvFY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-7" value="data tersimpan?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="590" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-8" target="kUst8tB0392i_xlxhvFY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-8" value="Header ke data buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="745" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-10" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="710" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-11" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="630" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-12" value="Klik Tombol &lt;br&gt;Tambah Buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="155" y="330" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-3" target="kUst8tB0392i_xlxhvFY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-16" target="kUst8tB0392i_xlxhvFY-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-16" value="Input data ke field yang&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;tersedia" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;size=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="500" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUst8tB0392i_xlxhvFY-7" target="YbOoIcbZR2tlrwJzo8jR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="580" as="sourcePoint" />
+            <mxPoint x="297.5" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="640" />
+              <mxPoint x="410" y="448" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUst8tB0392i_xlxhvFY-23" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="840" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YbOoIcbZR2tlrwJzo8jR-1" value="Tampilan Form &lt;br&gt;Tambah Buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="130" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

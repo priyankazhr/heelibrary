@@ -1,0 +1,11 @@
+     html{
+        margin: 0;
+        padding: 0;
+        color:  solid black;
+        background-color: mistyrose;
+    }
+    h1 h2 samp {
+        margin-left: 50px;
+        margin-top: 40px;
+        text-align: left;
+    }

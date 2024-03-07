@@ -1,0 +1,56 @@
+html{
+    background-color: mistyrose;
+    color: rgb(57, 109, 207);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: darkblue;
+    color: white ;
+    padding: 10px;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 120px;
+    justify-items: center;
+    align-items: center;
+}
+
+thead{
+    background-color: rgb(209, 136, 90);
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+    border-color : 20px solid black;
+}
+td {
+    padding: 10px 95px;
+    border-color : 2px solid black;
+    text-align: center;
+    border-style: initial ;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: rgb(229, 220, 220) ;
+    padding: 10px;
+}
+.btn-warning{
+    background-color: rgb(255, 221, 96);
+    color: black;
+}
+.btn-primary{
+    background-color: cadetblue;
+    color: black;
+}
+.btn-danger{
+    background-color: rgb(235, 48, 85);
+    color: black;
+}
