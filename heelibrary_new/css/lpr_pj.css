@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    color: rgb(39, 36, 36);
+    font-size: larger;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+table{
+    margin-left: 35px;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: darkgrey;
+}
+thead th{
+    background-color: #a7d8e1; /* Pastel blue */
+    color: rgb(43, 35, 35);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  
+  tbody td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add bottom border for each cell */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+  }

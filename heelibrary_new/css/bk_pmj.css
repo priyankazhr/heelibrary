@@ -1,0 +1,68 @@
+body{
+    color: #333;
+    background-color: beige;
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.card-img-top {
+    display: block; 
+    margin: 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              auto; 
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.btn-warning {
+    padding: 10px 20px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 20px;
+    font-size: 15px;
+    color: #050504;
+    background-color: yellow;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 20px;
+    font-size: 15px;
+    color: #fefeff;
+    background-color: rgb(56, 35, 248);
+}
+

@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(248, 213, 213);
+    width: auto;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    padding: auto;
+    width: 110px;
+    align-items: center;
+    justify-items: center;
+}
+
+.card {
+    background-color: rgba(206, 63, 63, 0.807);
+    border-radius: 8px;
+    box-sizing: border-box;
+    align-items: left;
+    width: 25vw;
+    height: 70vh;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.row {
+    align-items: center;
+    padding: 10px 10px;
+   text-align: center;  
+    flex-direction: column;
+}
+
+.form-label {
+    margin-top: 30px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.form-control {
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+.btn {
+    padding: 4px 15px;
+    color: aliceblue;
+    border-radius: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-success {
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: rgb(52, 179, 52);
+    border-color: aliceblue;
+}
+
+.btn-success:hover {
+    background-color: darkseagreen;
+    transition: 300ms;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    margin-left: 25px;
+}
+
+.btn-danger {
+    margin-top: 20px;
+    background-color: rgb(214, 45, 45);
+    border-color: aliceblue;
+    width: 8px;
+    height: 8px;
+}
+
+.btn-danger:hover {
+    background-color: rgb(196, 109, 109);
+    transition: 300ms;
+}

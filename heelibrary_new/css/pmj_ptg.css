@@ -1,0 +1,154 @@
+<<<<<<< HEAD
+html{
+    background-color: mistyrose;
+    color: rgb(57, 109, 207);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.btn{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 221, 96);
+    color: rgb(40, 32, 32) ;
+    padding: 10px;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+thead{
+    background-color: rgb(152, 188, 255);
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+}
+td {
+    padding: 8px 75px;
+    border-color : 2px solid black;
+    text-align: center;
+    border-style: initial ;
+    font-size: 19px;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    color: rgb(39, 36, 36);
+    font-size: larger;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+table{
+    margin-left: 35px;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: darkgrey;
+}
+thead th{
+    background-color: #ffec9f; 
+    color: rgb(43, 35, 35);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  
+  /* Table rows */
+  tbody tr:nth-child(even) {
+    background-color: #f0ded8; /* Pastel peach */
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #e6f1e3; /* Pastel green */
+  }
+  
+  tbody td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add bottom border for each cell */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+
+}
+.btn-success {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 600px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(0, 245, 41);
+}
+.btn-warning {
+    padding: 10px 20px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 20px;
+    font-size: 15px;
+    color: #050504;
+    background-color: yellow;
+}
+.btn-danger {
+    padding: 10px 20px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 20px;
+    font-size: 15px;
+    color: #f8f8d2;
+    background-color: rgb(218, 30, 30);
+}
+.btn-primary {
+    padding: 10px 20px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+    width: 25px;
+    height: 20px;
+    font-size: 15px;
+    color: #fefeff;
+    background-color: rgb(56, 35, 248);
+>>>>>>> 174d494 (Mengupload update dan perbaikan hasil ujikom 2024)
+}
